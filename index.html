@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Perfil do Pedro</title>
+    
+    <style type="text/css">
+      li,h2 {font-style: italic;}
+      h2.crimson {color: #DC143C;}
+      h2.darkGoldenRod {color: #B8860B;}
+      .generic {color: black;}
+    </style> <!-- documento E seletor E classes-->
+
+    <meta lang="pt-br">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css"> <!-- externo -->
+    <script type="text/javascript" src="scripts.js"></script>
+  </head>
+  
+  <body>
+    <img src="https://moodle.ufsc.br/pluginfile.php/1058311/user/icon/clean/f1?rev=34191975" width=100>
+    <h1>Pedro Alexandre Barradas da Côrte</h1>
+    <h2 class="darkGoldenRod">Ciências da Computação - UFSC</h2>
+    <img src="https://logodownload.org/wp-content/uploads/2015/02/ufsc-logo-1.png" width=50>
+    <h3><a href="mailto:pedroabcorte@gmail.com"> pedroabcorte@gmail.com</a></h3>
+    
+    <p style="color: #6495ED"> <!-- inline -->
+      Meu nome é Pedro Alexandre, sou Português nascido em 1996 e vim morar no Brasil em 2003. Por ter morado em Portugal por 6 anos, tenho a capacidade de falar com dois sotaques diferentes.
+      <br><br>
+      Interesses:<br>
+      <ul>
+        <li>Dispositivos móveis (principalmente smartphones)</li>
+        <li>Jogos de tiro em primeira pessoa (<a href="https://blog.counter-strike.net/index.php/category/updates/" onclick="return confirm('Sim, ainda existe')">Counter Strike</a> <img src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/e4/e4346674a5511b07935eccaaa918a7f75e2f0f15_full.jpg" width=15>)</li>
+        <li>Brincar com os detalhes <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" title="link top!" onmouseover="displayQuote();" >:)</a></li>
+      </ul>
+    </p>
+  
+    <form id="minhaForm">
+      <label for="perg">Qual a sua dúvida?</label><br>
+      <input type="text" id="perg" name="perg"><br>
+      <input type="button" onclick="criaTabela()" value="Enviar">
+    </form>
+
+	<div id="tabela">
+    </div>
+
+    <script language="javascript"> alertaInicial() </script>
+  </body>
+</html>

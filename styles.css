@@ -1,0 +1,21 @@
+h1 {
+	font-size: 40px;
+	color: #DC143C;
+	font-style: bold;
+}
+
+a {
+	color: orange;
+}
+
+a:hover {
+	color: blue;
+}
+
+a:active {
+	color: purple;
+}
+
+a:visited {
+	color: #8FBC8F;
+}
